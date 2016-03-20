@@ -1,0 +1,24 @@
+package:
+  name: chartkick
+  version: "0.4.2"
+
+source:
+  git_rev: v0.4.2
+  git_url: https://github.com/mher/chartkick.py.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+# test:
+#   imports:
+#     -
+
+about:
+  home: https://github.com/joerick/pyinstrument
+  license: MIT
+  license_file: LICENSE

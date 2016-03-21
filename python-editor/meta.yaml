@@ -1,0 +1,24 @@
+package:
+  name: python-editor
+  version: "0.5"
+
+source:
+  git_rev: 0.5
+  git_url: https://github.com/fmoo/python-editor.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+# test:
+#   imports:
+#     -
+
+about:
+  home: https://github.com/fmoo/python-editor
+  license: Apache
+  license_file: LICENSE

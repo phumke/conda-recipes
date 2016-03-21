@@ -1,0 +1,24 @@
+package:
+  name: thrift
+  version: "0.9.3"
+
+source:
+  git_rev: 0.9.3
+  git_url: https://github.com/apache/thrift.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+# test:
+#   imports:
+#     -
+
+about:
+  home: https://github.com/apache/thrift
+  license: Apache 2.0
+  license_file: LICENSE

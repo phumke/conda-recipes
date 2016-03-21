@@ -1,0 +1,32 @@
+package:
+  name: alembic
+  version: "0.8.5"
+
+source:
+  git_rev: rel_0_8_5
+  git_url: https://bitbucket.org/zzzeek/alembic.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - sqlalchemy >=0.7.6
+    - mako
+    - python-editor >=0.3
+    # - argparse
+
+  run:
+    - python
+    - sqlalchemy >=0.7.6
+    - mako
+    - python-editor >=0.3
+    # - argparse
+
+# test:
+#   imports:
+#     -
+
+about:
+  home: https://bitbucket.org/zzzeek/alembic
+  license: MIT
+  license_file: LICENSE
